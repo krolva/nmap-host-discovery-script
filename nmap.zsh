@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# Retrieve the private IP address on the current WI-FI network
+# Retrieve your private IP address on the current WI-FI network
 ip=$(ipconfig getifaddr en0)
 echo "Private IP: $ip"
 
